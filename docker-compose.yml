@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+
+    build: .
+    
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app_pokemon.py:/app/app_pokemon.py
+      - ./teams.txt:/app/teams.txt
+    environment:
+      FLASK_RUN_HOST: 0.0.0.0
