@@ -87,7 +87,4 @@ def create_team():
     return jsonify({'message': 'Time criado com sucesso', 'id': team_id}), 201
 
 if __name__ == '__main__':
-    if not os.path.isfile('teams.txt'):
-        with open('teams.txt', 'w') as file:
-            file.write('{}')
     app.run(debug=True, host='0.0.0.0')
