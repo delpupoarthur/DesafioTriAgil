@@ -12,8 +12,8 @@ Esse é um projeto desenvolvido para o processo seletivo da Triágil.
 ## Tratamento de Erros
 O app retorna erro nas seguintes situações:
 - Nome de pokémon inválido.
-- No caso de time vazio na rota POST /api/teams.
-- No caso de owner vazio na rota POST /api/teams. 
+- No caso de "team" vazio na rota POST /api/teams.
+- No caso de "user" vazio na rota POST /api/teams. 
 - Id não encontrado durante a rota GET/api/teams{id}.
 - Se nenhum time for encontrado durante a rota GET/api/teams.
 
