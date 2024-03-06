@@ -9,6 +9,6 @@ services:
       - "5000:5000"
     volumes:
       - ./app_pokemon.py:/app/app_pokemon.py
-      - ./teams.txt:/app/teams.txt
+      - ./teams.json:/app/teams.json
     environment:
       FLASK_RUN_HOST: 0.0.0.0
