@@ -14,7 +14,7 @@ O app retorna erro nas seguintes situações:
 - Nome de pokémon inválido.
 - No caso de "team" vazio na rota POST /api/teams.
 - No caso de "user" vazio na rota POST /api/teams. 
-- Id não encontrado durante a rota GET/api/teams{id}.
+- User não encontrado durante a rota GET/api/teams{user}.
 - Se nenhum time for encontrado durante a rota GET/api/teams.
 
 ### Exemplo de uso
