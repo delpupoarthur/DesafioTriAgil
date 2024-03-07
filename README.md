@@ -4,7 +4,7 @@ Este aplicativo serve como um gerenciador para times de Pokémon utilizando dado
 
 Esse é um projeto desenvolvido para o processo seletivo da Triágil.
 
-##Rotas
+## Rotas
 
 - GET /api/teams: Lista todos os times Pokémon registrados.
 - GET /api/teams/{user}: Busca um time registrado por usuário, a busca pode ser feita pelo id ou pelo nome do treinador.
