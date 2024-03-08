@@ -24,7 +24,7 @@ Para criar um novo time de Pokémon, faça uma solicitação POST para `/api/tea
 
 ```json
 {
-  "user": "Ash Ketchum",
+  "user": "Ash",
   "team": ["pikachu", "charizard", "bulbasaur", "snorlax"]
 }
 ```
